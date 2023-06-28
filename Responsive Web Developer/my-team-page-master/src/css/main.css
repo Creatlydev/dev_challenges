@@ -1,8 +1,11 @@
 
+/* GALLERY
+----------- */
+.gallery {
+    margin-bottom: 5rem;
+}
 
-/* COVER
---------- */
-.cover {
+.gallery__description {
     position: sticky;
     top: 0;
     padding: 2rem 0 3.5rem;
@@ -14,36 +17,29 @@
     box-shadow: 0 .3rem 2.5rem #f7fafd;
 }
 
-
-
-.cover__title,
-.cover__subtitle {
+.gallery__title,
+.gallery__subtitle {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
 
-.cover__title {
+.gallery__title {
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-.cover__subtitle {
+.gallery__subtitle {
     font-size: 1.2rem;
 }
 
-
-/* GALLERY
------------ */
-.gallery {
+.gallery__peoples {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    column-gap: 2rem;
+    justify-content: center;
+    column-gap: 2.5rem;
     row-gap: 1.5rem;
-    margin-bottom: 4rem;
-    letter-spacing: 1.2px;
 }
 
 .gallery__people {
@@ -51,8 +47,8 @@
     position: relative;
 }
 
-.gallery__name-people,
-.gallery__role-people {
+.gallery__people-name,
+.gallery__people-role {
     font-weight: 500;
 }
 
@@ -65,14 +61,13 @@
     gap: .8rem;
 }
 
-.gallery__role-people {
+.gallery__people-role {
     writing-mode: vertical-lr;
     position: absolute;
     font-size: .7rem;
     right: 0;
     top: 0;
 }
-
 
 @media screen and (min-width: 429px) {
     .gallery {
@@ -90,22 +85,21 @@
         width: 250px;
     }
 
-    .gallery__role-people {
+    .gallery__people-role {
         font-size: .8rem;
         right: -5px;
     }
 }
 
 @media screen and (min-width: 862px) {
-    .cover__content {
-        max-width: 820px;
+    .gallery__description {
         display: flex;
-        padding: 0;
         align-items: center;
-        gap: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
-
-    .cover__title {
+    
+    .gallery__title {
         width: 100%;
         margin: 0;
     }
