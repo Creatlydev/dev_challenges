@@ -14,7 +14,6 @@
     background-color: hsla(210, 60%, 98%, .6);
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    box-shadow: 0 .3rem 2.5rem #f7fafd;
 }
 
 .gallery__title,
@@ -34,12 +33,11 @@
 }
 
 .gallery__peoples {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 270px));
     column-gap: 2.5rem;
     row-gap: 1.5rem;
+    justify-content: center;
 }
 
 .gallery__people {
@@ -54,7 +52,6 @@
 
 .gallery__people-content {
     padding-right: 1rem;
-    width: 150px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -80,11 +77,6 @@
 }
 
 @media screen and (min-width: 793px) {
-
-    .gallery__people-content {
-        width: 250px;
-    }
-
     .gallery__people-role {
         font-size: .8rem;
         right: -5px;
@@ -95,10 +87,8 @@
     .gallery__description {
         display: flex;
         align-items: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
     }
-    
+
     .gallery__title {
         width: 100%;
         margin: 0;
