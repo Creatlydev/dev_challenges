@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <title>Devchallenges</title>
+
+  <link rel="icon" href="devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <!-- Monserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+  <link rel="stylesheet" href="./src/css/main.css" type="text/css">
+
+  <script src="./src/js/events.js" defer></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__content container">
+      <div class="header__logo logo">
+        <span class="logo__text">THIS INTERIOR</span>
+      </div>
+
+      <nav class="header__nav nav">
+        <ul class="nav__content">
+          <li class="nav__item">
+            <a href="#" class="nav__item-link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item-link">Collection</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item-link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__item-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <input type="checkbox" name="check-icon" id="check-icon" class="check-icon" hidden>
+      <div class="icon-menu">
+        <label for="check-icon" class="icon-menu__content">
+          <div class="bar bar--1"></div>
+          <div class="bar bar--2"></div>
+          <div class="bar bar--3"></div>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="cover container">
+      <div class="cover__description">
+        <h1 class="cover__title">Modern interior</h1>
+        <p class="cover__paragraph">
+          A full-Service residential & commercial interior design and staging company offering professional organizing &
+          eco-services.
+        </p>
+        <button class="cover__cta">
+          Read more
+          <svg class="cover__cta-arrow" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#8c42d6">
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path d="M22 12l-4-4v3H3v2h15v3l4-4z" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="cover__graphic">
+        <img src="./public/photo1.png" alt="" class="cover__graphic-img">
+        <div class="profile">
+          <div class="profile__top">
+            <img src="./public/photo2.png" alt="" class="profile__photo">
+            <div class="profile__top-data">
+              <p class="profile__name">Aliza Webber</p>
+              <p class="profile__role">Interior designer</p>
+            </div>
+          </div>
+          <div class="profile__body">
+            <p class="profile__description">
+              Designed in 2020 by Aliza Webber
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
