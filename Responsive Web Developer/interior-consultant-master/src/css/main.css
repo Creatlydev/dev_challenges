@@ -1,11 +1,8 @@
-/* * {
-    outline: 1px solid teal;
-} */
 
 /* HEADER
 ============================================================ */
 .header {
-    height: 3.5rem;
+    height: 4rem;
     background-color: hsla(270, 65%, 65%, 50%);
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
@@ -158,22 +155,22 @@
 
 /* SECTION COVER
 ----------------- */
-.main {
-    padding-bottom: 8rem;
-}
 
 .cover {
+    --fz-title: 2rem;
+    --fz-paragraph: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 2rem;
+    padding-bottom: 5rem;
     gap: 1.5rem;
-    min-height: calc(100vh - 3.5rem);
+    min-height: calc(100vh - 4rem);
 }
 
 .cover__title {
-    font-size: 2rem;
+    font-size: var(--fz-title);
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -181,7 +178,7 @@
 .cover__paragraph {
     text-wrap: balance;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: var(--fz-paragraph);
     margin-bottom: 1.5rem;
 }
 
@@ -217,7 +214,7 @@
     right: calc(15% / 2);
     transform: translateY(50%);
     background-color: hsl(270, 65%, 95%);
-    box-shadow: 0 .5rem 4rem 0 hsla(270, 65%, 70%, 50%);
+    box-shadow: 0 .5rem 4rem 0 hsla(270, 65%, 70%, 40%);
     padding: .8rem 1.5rem;
 }
 
@@ -256,21 +253,41 @@
 @media screen and (min-width: 768px) {
     .cover {
         flex-direction: row;
-        padding: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 3rem;
     }
 
     .cover__description {
         max-width: max-content;
     }
+
+    .header {
+        background-color: transparent;
+    }
+
+    .nav__content {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        background-color: transparent;
+        max-width: unset;
+        height: auto;
+        transform: translate(0);
+        box-shadow: none;
+        font-size: 1rem;
+    }
+
+    .icon-menu {
+        display: none;
+    }
 }
 
 
 @media screen and (min-width: 940px) {
-    .cover__title {
-        font-size: 3rem;
-    }
-
-    .cover__paragraph {
-        font-size: 1.5rem;
+    .cover {
+        --fz-title: 3rem;
+        --fz-paragraph: 1.5rem;
     }
 }
