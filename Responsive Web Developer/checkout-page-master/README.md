@@ -1,4 +1,4 @@
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Checkout page master</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://checkout-page-main.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/o2xgth8V87nCT6Sq6n8B">
       Solution
     </a>
     <span> | </span>
