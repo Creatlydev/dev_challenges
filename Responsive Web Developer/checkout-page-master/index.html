@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <title>Checkout Page Master</title>
+
+  <link rel="icon" href="devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons - Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+  <link rel="stylesheet" href="./src/css/main.css" type="text/css">
+
+</head>
+
+<body>
+
+  <main class="main">
+    <section class="checkout container">
+      <h1 class="checkout__title">Checkout</h1>
+
+      <div class="checkout__content">
+        <div class="cart">
+          <div class="cart__product flex">
+            <div class="cart__product-img">
+              <img src="./public/photo1.png" alt="Imagen de producto de mochila de cuero">
+            </div>
+            <div class="cart__product-summary flex">
+              <h3 class="cart__product-name">Vintage Backbag</h3>
+              <div class="cart__product-prices flex">
+                <p class="cart__product-price-now">$54.99</p>
+                <del class="cart__product-price-before">$94.99</del>
+              </div>
+              <div class="cart__product-cant flex">
+                <span class="cart__product-cant-control">-</span>
+                <span class="cart__product-cant-number">1</span>
+                <span class="cart__product-cant-control">+</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="cart__product flex">
+            <div class="cart__product-img">
+              <img src="./public/photo2.png" alt="Imagen de producto de zapatos de cuero">
+            </div>
+            <div class="cart__product-summary flex">
+              <h3 class="cart__product-name">Levi Shoes</h3>
+              <div class="cart__product-prices flex">
+                <p class="cart__product-price-now">$74.99</p>
+                <del class="cart__product-price-before">$124.99</del>
+              </div>
+              <div class="cart__product-cant flex">
+                <span class="cart__product-cant-control">-</span>
+                <span class="cart__product-cant-number">1</span>
+                <span class="cart__product-cant-control">+</span>
+              </div>
+            </div>
+          </div>
+        
+          <div class="cart__summary">
+            <hr>
+            <div class="cart__summary-total flex">
+              <h3 class="cart__summary-text">Shipping</h3>
+              <p class="cart__summary-price">$19</p>
+            </div>
+        
+            <hr>
+        
+            <div class="cart__summary-total flex">
+              <h3 class="cart__summary-text">Total</h3>
+              <p class="cart__summary-price">$148.98</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="info">
+          <form action="#" method="post" class="info__form form flex">
+            
+            <fieldset class="form__fieldset">
+              <h2 class="info__title">Contact information</h2>
+              <div class="form__group">
+                <label for="" class="form__label">E-mail</label>
+                <div class="form__content-input flex">
+                  <span class="material-icons-sharp">email</span>
+                  <input type="email" name="contact-email" id="contact-email" class="form__input" placeholder="Enter your email...">
+                </div>
+              </div>
+        
+              <div class="form__group">
+                <label for="" class="form__label">Phone</label>
+                <div class="form__content-input flex">
+                  <span class="material-icons-sharp">phone</span>
+                  <input type="tel" name="contact-phone" id="contact-phone" class="form__input" placeholder="Enter your phone...">
+                </div>
+              </div>
+            </fieldset>
+        
+            
+            <fieldset class="form__fieldset">
+              <h2 class="info__title">Shipping address</h2>
+              <div class="form__group">
+                <label for="" class="form__label">Full name</label>
+                <div class="form__content-input flex">
+                  <span class="material-icons-sharp">account_circle</span>
+                  <input type="text" name="name" id="name" class="form__input" placeholder="Your name...">
+                </div>
+              </div>
+        
+              <div class="form__group">
+                <label for="" class="form__label">Address</label>
+                <div class="form__content-input flex">
+                  <span class="material-icons-sharp">home</span>
+                  <input type="text" name="address" id="address" class="form__input" placeholder="Your address...">
+                </div>
+              </div>
+        
+              <div class="form__group">
+                <label for="" class="form__label">City</label>
+                <div class="form__content-input flex">
+                  <span class="material-icons-sharp">apartment</span>
+                  <input type="text" name="city" id="city" class="form__input" placeholder="Your city...">
+                </div>
+              </div>
+        
+              <div class="form__group">
+                <div class="form__group form__subgroup">
+                  <label for="" class="form__label">Country</label>
+                  <div class="form__content-input flex">
+                    <span class="material-icons-sharp">apartment</span>
+        
+                    <select name="country" id="country" class="form__select">
+                      <option value="Peru" selected>Your country...</option>
+                      <option value="Peru">Chile</option>
+                      <option value="Peru">Mexico</option>
+                      <option value="Peru">Tailandia</option>
+                    </select>
+                  </div>
+                </div>
+        
+                <div class="form__group form__subgroup">
+                  <label for="" class="form__label">Postal code</label>
+                  <div class="form__content-input flex">
+                    <span class="material-icons-sharp">markunread_mailbox</span>
+                    <input type="number" name="postal-code" id="postal-code" class="form__input" placeholder="Your postal code...">
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+        
+            <div class="form__group flex">
+              <input type="checkbox" name="save-info" id="save-info" class="form__checkbox">
+              <label for="" class="form__label">Save this information for next time</label>
+            </div>
+        
+            <input type="submit" value="Continue" class="form__submit">
+          </form>
+        
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <footer class="footer" style="margin: 1.5rem 0;text-align: center;">
+    Created by <a style="text-decoration: underline;" href="https://devchallenges.io/portfolio/Creatlydev">@Creatlydev</a>
+  </footer>
+
+</body>
+
+</html>
