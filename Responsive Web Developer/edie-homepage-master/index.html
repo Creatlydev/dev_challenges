@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <title>Homepage</title>
+
+  <link rel="icon" href="devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+  <link rel="stylesheet" href="./src/css/main.css" type="text/css">
+
+  <script src="./src/js/events.js" defer></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-content container-xl flex flex-justify-between flex-align-center">
+      <div class="logo">
+        <span class="text_size_xl text_weight_700">Edie</span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__content flex flex-column flex-align-center flex-justify-center">
+          <li class="nav__item">Home</li>
+          <li class="nav__item">Services</li>
+          <li class="nav__item">Our Works</li>
+          <li class="nav__item">Clients</li>
+          <li class="nav__item">Contact</li>
+        </ul>
+      </nav>
+
+      <label class="icon-container">
+        <svg class="icon-menu cursor_theme_pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+          viewBox="0 0 24 24" fill="none">
+          <g clip-path="url(#clip0_1_149)">
+            <path
+              d="M4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM3 7C3 7.55 3.45 8 4 8H20C20.55 8 21 7.55 21 7C21 6.45 20.55 6 20 6H4C3.45 6 3 6.45 3 7Z"
+              fill="black" />
+          </g>
+          <defs>
+            <clipPath id="clip0_1_149">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </label>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero container-xl">
+      <div class="hero__header">
+        <p class="text text_theme_primary">Unhappy with your website?</p>
+        <h1 class="hero__title text_size_xl">We create beautiful and fast web services</h1>
+      </div>
+      <img src="./public/heroImage.jpg" alt="Imagen sobre una reunion de planifacion" class="hero__img">
+      <div class="hero__description">
+        <h2 class="hero__title text_size_xl">Story, emotion and purpose</h2>
+        <p class="hero__paragraph text">
+          We help transform your ideas into real world applications that will outperform your toughest competition and
+          help you achieve your strategic goals in short period of time.
+        </p>
+        <div class="hero__cta flex flex-column">
+          <p class="text_size_sm">
+            Want us to contact you?
+          </p>
+
+          <div class="hero__cta-group flex">
+            <input class="hero__cta-input" type="email" name="input_email" id="email" placeholder="Email">
+            <button class="button">
+              <span class="button__text">Join</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services container">
+      <h2 class="service__title title__section text_size_xl">We offer high demand services </h2>
+      <div class="services__group group__cards flex flex-align-center flex-justify-center">
+        <div class="service flex flex-column">
+          <svg class="service__icon icon_theme_blue" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+            viewBox="0 0 36 36" fill="none">
+            <g clip-path="url(#clip0_1_176)">
+              <path
+                d="M4.5 26.1901V30.7501C4.5 31.1701 4.83 31.5001 5.25 31.5001H9.81C10.005 31.5001 10.2 31.4251 10.335 31.2751L26.715 14.9101L21.09 9.28509L4.725 25.6501C4.575 25.8001 4.5 25.9801 4.5 26.1901ZM31.065 10.5601C31.65 9.97509 31.65 9.03009 31.065 8.44509L27.555 4.93509C26.97 4.35009 26.025 4.35009 25.44 4.93509L22.695 7.68009L28.32 13.3051L31.065 10.5601V10.5601Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_176">
+                <rect width="36" height="36" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h3 class="service__name text_weight_700">UI/UX Design</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.
+          </p>
+
+          <button class="button button_state_disabled" disabled>
+            <span>Get started</span>
+          </button>
+        </div>
+
+        <div class="service flex flex-column shadow-md">
+          <svg class="service__icon icon_theme_green" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+            viewBox="0 0 36 36" fill="none">
+            <g clip-path="url(#clip0_1_185)">
+              <path
+                d="M13.05 23.85L7.19997 18L13.05 12.15C13.635 11.565 13.635 10.635 13.05 10.05C12.465 9.46496 11.535 9.46496 10.95 10.05L4.06497 16.935C3.47997 17.52 3.47997 18.465 4.06497 19.05L10.95 25.95C11.535 26.535 12.465 26.535 13.05 25.95C13.635 25.365 13.635 24.435 13.05 23.85V23.85ZM22.95 23.85L28.8 18L22.95 12.15C22.365 11.565 22.365 10.635 22.95 10.05C23.535 9.46496 24.465 9.46496 25.05 10.05L31.935 16.935C32.52 17.52 32.52 18.465 31.935 19.05L25.05 25.95C24.465 26.535 23.535 26.535 22.95 25.95C22.365 25.365 22.365 24.435 22.95 23.85V23.85Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_185">
+                <rect width="36" height="36" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h3 class="service__name text_weight_700">Front End</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.
+          </p>
+
+          <button class="button">
+            <span>Get started</span>
+          </button>
+        </div>
+
+        <div class="service flex flex-column">
+          <svg class="service__icon icon_theme_red" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+            viewBox="0 0 36 36" fill="none">
+            <g clip-path="url(#clip0_1_196)">
+              <path
+                d="M6 30H30C31.65 30 33 28.65 33 27C33 25.35 31.65 24 30 24H6C4.35 24 3 25.35 3 27C3 28.65 4.35 30 6 30ZM6 25.5H9V28.5H6V25.5ZM3 9C3 10.65 4.35 12 6 12H30C31.65 12 33 10.65 33 9C33 7.35 31.65 6 30 6H6C4.35 6 3 7.35 3 9ZM9 10.5H6V7.5H9V10.5ZM6 21H30C31.65 21 33 19.65 33 18C33 16.35 31.65 15 30 15H6C4.35 15 3 16.35 3 18C3 19.65 4.35 21 6 21ZM6 16.5H9V19.5H6V16.5Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_196">
+                <rect width="36" height="36" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <h3 class="service__name text_weight_700">Back End</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.
+          </p>
+
+          <button class="button button_state_disabled" disabled>
+            <span>Get started</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="proyects container">
+      <h2 class="proyects__title title__section text_size_xl">Good design means good business</h2>
+      <div class="proyects__group group__cards flex flex-align-start flex-justify-center">
+        <div class="proyect flex flex-column">
+          <img src="./public/smarthome.jpg" alt="" class="proyect__img">
+          <div class="proyect__info">
+            <p class="text_size_sm">Full stack application</p>
+            <h3 class="text text_size_md text_weight_500">Smart home dashboard</h3>
+          </div>
+        </div>
+
+        <div class="proyect flex flex-column">
+          <img src="./public/onboard.png" alt="" class="proyect__img">
+          <div class="proyect__info">
+            <p class="text_size_sm">UX/UI design</p>
+            <h3 class="text text_size_md text_weight_500">Onboard application</h3>
+          </div>
+        </div>
+
+        <div class="proyect flex flex-column">
+          <img src="./public/booking.png" alt="" class="proyect__img">
+          <div class="proyect__info">
+            <p class="text_size_sm">Mobile application</p>
+            <h3 class="text text_size_md text_weight_500">Booking system</h3>
+          </div>
+        </div>
+
+        <div class="proyect flex flex-column">
+          <img src="./public/juice-product.png" alt="" class="proyect__img">
+          <div class="proyect__info">
+            <p class="text_size_sm">Front End applicati on</p>
+            <h3 class="text text_size_md text_weight_500">Juice product homepage</h3>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="link text_theme_primary text flex flex-align-center">
+        see more
+        <svg class="link__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 16 8" fill="none">
+          <path
+            d="M12.01 2.99996H1C0.45 2.99996 0 3.44996 0 3.99996C0 4.54996 0.45 4.99996 1 4.99996H12.01V6.78996C12.01 7.23996 12.55 7.45996 12.86 7.13996L15.64 4.34996C15.83 4.14996 15.83 3.83996 15.64 3.63996L12.86 0.849956C12.55 0.529956 12.01 0.759956 12.01 1.19996V2.99996Z"
+            fill="#2D9CDB" />
+        </svg>
+      </a>
+    </section>
+
+    <section class="team container">
+      <div class="team__info flex flex-column">
+        <p class="text text_size_sm text_theme_red text_weight_500">
+          Meet the team
+        </p>
+        
+        <h2 class="team__title title__section text_size_xl">We are chilled and a laidback team</h2>
+
+        <p class="text team__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      
+      <div class="team__gallery">
+        <img src="./public/person3.png" alt="" class="team__img">
+        <img src="./public/person1.png" alt="" class="team__img">
+        <img src="./public/person2.png" alt="" class="team__img">
+      </div>
+
+    </section>
+
+    <section class="testimonials container">
+      <div class="testimonio text_size_xl text_weight_500">
+        <p>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
+        <div class="testimonials__profile flex flex-align-center">
+          <img src="./public/person4.png" alt="" class="testimonials__img">
+          <div class="testimonials__profile-info flex flex-column">
+            <span class="text text_weight_500">Carlos Tran</span>
+            <span class="text text_size_sm">The Decorate Gatsby</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__container container flex flex-column">
+      <ul class="footer__list flex flex-column">
+        <li class="footer__item text_weight_500">Home</li>
+        <li class="footer__item text_weight_500">Services</li>
+        <li class="footer__item text_weight_500">Our Works</li>
+        <li class="footer__item text_weight_500">Clients</li>
+        <li class="footer__item text_weight_500">Contact</li>
+      </ul>
+
+      <div>
+        <div class="logo">
+          <span class="logo__footer text_size_xl text_weight_700">Edie</span>
+        </div>
+        
+        <div class="social-media flex flex-align-center">
+          <img src="./public/instagram.svg" alt="" class="icon icon_category_brand">
+          <img src="./public/linkedin.svg"  alt="" class="icon icon_category_brand">
+          <img src="./public/twitter.svg"   alt="" class="icon icon_category_brand">
+        </div>
+      </div>
+      
+      <div class="hero__cta flex flex-column">
+        <p class="text_size_sm">
+          Want us to contact you?
+        </p>
+
+        <div class="hero__cta-group flex">
+          <input class="hero__cta-input" type="email" name="input_email" id="email" placeholder="Email">
+          <button class="button">
+            <span class="button__text">Join</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
