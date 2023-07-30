@@ -1,0 +1,32 @@
+
+.profile {
+    display: flex;
+    gap: 1.5rem;
+    grid-column: span 2;
+}
+
+.profile__img {
+    width: 12rem;
+}
+
+.profile__head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__name {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.profile__career {
+    font-weight: 500;
+    color: #828282;
+    font-size: 1.125;
+}
+
+.profile__box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

@@ -1,0 +1,38 @@
+
+
+.c-article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.c-article__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.c-article__name {
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: max-content;
+    margin-top: .75rem;
+}
+
+.c-article__img {
+    border-radius: .75rem;
+    position: relative;
+    right: -2rem;
+    height: 15rem;
+}
+
+.c-article__description {
+    font-weight: 500;
+    color: hsla(0, 0%, 51%, 1);
+}
+
+.c-article__link {
+    color: hsla(214, 84%, 56%, 1);
+    font-weight: 500;
+    margin-top: 2.5rem;
+}

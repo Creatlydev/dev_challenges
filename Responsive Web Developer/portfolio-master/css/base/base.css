@@ -1,0 +1,57 @@
+@import url("./style.css");
+
+/* UTILITIES */
+@import url('/css/utilities.css');
+
+/* COMPONENTS */
+@import url('/css/components/c-button.css');
+@import url('/css/components/c-skyll.css');
+@import url('/css/components/c-article.css');
+@import url('/css/components/c-hobbie.css');
+@import url('/css/components/c-experiencie.css');
+@import url('/css/components/c-project.css');
+@import url('/css/components/c-profile.css');
+
+
+
+:root {
+    --primary-color: hsla(28, 87%, 62%, 1);
+    --neutral-500: hsla(0, 0%, 20%, 1);
+    --neutral-300: hsla(0, 0%, 74%, 1);
+
+    --f-z-biggest: 1.5rem;
+    --f-z-bigger: 1.125rem;
+    --f-z-big: 1rem;
+    --f-z-normal: .875rem;
+    --f-s-small: .75rem;
+}
+
+/* ADAPTACION DE FUENTES */
+@media screen and (min-width: 760px) {
+    :root {
+        --f-z-biggest: 3rem;
+        --f-z-bigger: 1.5rem;
+        --f-z-big: 1.125rem;
+        --f-z-normal: 1rem;
+        --f-s-small: .875rem;
+    }
+}
+/* ------------------------- */
+
+
+
+
+
+
+body {
+    min-height: 100vh;
+    letter-spacing: 1.3px;
+    line-height: 1.5;
+    font-family: 'Sora', 'sans-serif';
+    font-weight: 300;
+    padding: .1px;
+    background-color: #f7fafd;
+}
+
+
+

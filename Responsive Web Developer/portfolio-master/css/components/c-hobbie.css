@@ -1,0 +1,31 @@
+
+.c-hobbie {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.c-hobbie__img {
+    border-radius: .75rem;
+    height: 8rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.c-hobbie__img img {
+    transition: transform 300ms;
+}
+
+.c-hobbie__img img:hover {
+    transform: scale(1.1);
+}
+
+.c-hobbie__name {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.c-hobbie__description {
+    font-weight: 500;
+    color: hsla(0, 0%, 51%, 1);
+}

@@ -1,0 +1,16 @@
+
+
+.c-skyll {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: .5rem 0;
+}
+
+.c-skyll__name {
+    font-size: 1rem;
+    font-weight: 400;
+    min-width: 12ch;
+    flex-shrink: 0;
+}
+
